@@ -193,19 +193,11 @@ a {
     padding-top: 100px;
 }
 
-.img-1 {
-    width: 40%;
-}
-
 .PR-2, .PR-3, .PR-4 {
     text-align: center;
 }
 
-.img-2, .img-4 {
-    width: 40%;
-}
-
-.img-3 {
+.img-1,.img-2,.img-3,.img-4 {
     width: 40%;
 }
 
@@ -236,7 +228,7 @@ a {
 
 .box {
     width: calc(33.33% - 20px); /* マージンの分を差し引く */
-    height: 450px;
+    height: 350px;
     margin-bottom: 20px;
     background-color: #FC5476;
     text-align: center;
@@ -277,25 +269,130 @@ a {
     text-align: center;
 }
 
-.olan {
+.plan-section {
     display: flex;
-    justify-content: center; /* 横方向に中央揃え */
-    flex-direction: row-reverse; /* テキストを右に配置 */
-    align-items: center; /* 縦方向に中央揃え */
-    text-align: center; /* テキストを中央揃え */
-    background-color: #FC5476;
-    margin: 0 28%;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(240, 244, 249);
+    margin: 0 27%;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
-.olan p {
-    margin: 0; /* テキストのデフォルトのマージンをリセット */
+.plan-text {
+    margin: 0 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(43, 84, 106);
 }
 
-.olan img {
-    max-width: 100%; /* 画像が親要素を超えないように最大幅を設定 */
-    margin-left: 20px; /* 画像とテキストの間に適切な間隔を設定 */
-    width: 32%;
+.plan-image {
+    width: 39%;
 }
 
+.free-plan {
+    background-color: rgb(240,244,248);
+    width: 500px;
+    height: 370px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* 縦に並べる */
+    align-items: center; /* 横方向（横軸）で中央に配置 */
+    justify-content: center; /* 縦方向（縦軸）で中央に配置 */
+    text-align: center; /* テキストを中央揃えにする */
+    border-radius: 10px;
+    margin-left: 27%;
+}
 
+.free-text-1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(43, 84, 106);
+    margin-top: 90px;
+}
 
+.free-text-2 {
+    margin-top: 30px;
+    margin-bottom: 65px;
+    color: rgb(131,145,165);
+}
+
+.free-text-3 {
+    margin-top: 50px;
+    font-weight: bold;
+    color: rgb(43, 84, 106);
+}
+
+.free-text-4 {
+    color: rgb(43, 84, 106);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.free-text-1,
+.free-text-2,
+.free-text-3,
+.free-text-4 {
+    display: block;
+    margin-bottom: 10px; /* テキスト同士の間隔を設定（必要に応じて調整） */
+}
+
+.plus-plan {
+    background-color: rgb(247,237,173);
+    width: 500px;
+    height: 370px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* 縦に並べる */
+    align-items: center; /* 横方向（横軸）で中央に配置 */
+    justify-content: center; /* 縦方向（縦軸）で中央に配置 */
+    text-align: center; /* テキストを中央揃えにする */
+    border-radius: 10px;
+}
+
+.plus-text-1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(43, 84, 106);
+    margin-top: 90px;
+}
+
+.plus-text-2 {
+    margin-top: 30px;
+    margin-bottom: 65px;
+    color: rgb(131, 145, 165);
+}
+
+.plus-text-3 {
+    margin-top: 50px;
+    font-weight: bold;
+    color: rgb(43, 84, 106);
+    
+}
+
+.plus-text-4 {
+    margin-top: 10px;
+    color: rgb(43, 84, 106);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pt4 {
+    font-size: 40px;
+}
+
+.plus-text-1,
+.plus-text-2,
+.plus-text-3,
+.plus-text-4 {
+    display: block;
+    margin-bottom: 10px; /* テキスト同士の間隔を設定（必要に応じて調整） */
+}
+
+.free-plan, .plus-plan {
+    display: inline-block;
+    vertical-align: top; /* 一番上に揃える */
+}
