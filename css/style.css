@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(249, 251, 254);
 }
 
 .header-button {
@@ -19,14 +18,18 @@ body {
     margin-left: 30px;
 }
 
-.header-li, .header-li-lang, .header-li-new {
+.header-li,
+.header-li-lang,
+.header-li-new {
     display: inline-block;
     top: 10px;
     text-align: center;
     margin-right: 20px;
 }
 
-.header-li, .header-li-lang, a {
+.header-li,
+.header-li-lang,
+a {
     color: #333;
 }
 
@@ -50,7 +53,8 @@ a {
 .dropbtn {
     background-color: transparent;
     color: #333;
-    padding: 10px 25px 10px 10px; /* ボタンの右側に余白を追加 */
+    padding: 10px 25px 10px 10px;
+    /* ボタンの右側に余白を追加 */
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -77,7 +81,8 @@ a {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    margin-top: 10px; /* メニューとボタンの間に余白を追加 */
+    margin-top: 10px;
+    /* メニューとボタンの間に余白を追加 */
 }
 
 .dropdown-content a {
@@ -168,7 +173,8 @@ a {
     color: rgb(43, 84, 106);
 }
 
-.user-country .user-small, .ps {
+.user-country .user-small,
+.ps {
     margin-right: 14px;
     font-size: 13px;
 }
@@ -193,11 +199,16 @@ a {
     padding-top: 100px;
 }
 
-.PR-2, .PR-3, .PR-4 {
+.PR-2,
+.PR-3,
+.PR-4 {
     text-align: center;
 }
 
-.img-1,.img-2,.img-3,.img-4 {
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
     width: 40%;
 }
 
@@ -227,7 +238,8 @@ a {
 }
 
 .box {
-    width: calc(33.33% - 20px); /* マージンの分を差し引く */
+    width: calc(33.33% - 20px);
+    /* マージンの分を差し引く */
     height: 350px;
     margin-bottom: 20px;
     background-color: #FC5476;
@@ -235,7 +247,8 @@ a {
     line-height: 350px;
     text-decoration: none;
     color: #ffffff;
-    overflow: hidden; /* オーバーフローを隠すために追加 */
+    overflow: hidden;
+    /* オーバーフローを隠すために追加 */
     border-radius: 5px;
     transition: all 0.3s;
 }
@@ -246,14 +259,18 @@ a {
 }
 
 .box p {
-    margin: 0; /* パラグラフのマージンをリセット */
-    padding: 10px; /* パディングを追加してテキストとボックスの間隔を設定 */
-    box-sizing: border-box; /* パディングが要素の幅に含まれるように設定 */
-    white-space: normal; /* テキストがボックス内で改行されるように設定 */
+    margin: 0;
+    /* パラグラフのマージンをリセット */
+    padding: 10px;
+    /* パディングを追加してテキストとボックスの間隔を設定 */
+    box-sizing: border-box;
+    /* パディングが要素の幅に含まれるように設定 */
+    white-space: normal;
+    /* テキストがボックス内で改行されるように設定 */
 }
 
 .box-2 {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,15 +316,19 @@ a {
 }
 
 .free-plan {
-    background-color: rgb(240,244,248);
+    background-color: rgb(240, 244, 248);
     width: 500px;
     height: 370px;
     text-align: center;
     display: flex;
-    flex-direction: column; /* 縦に並べる */
-    align-items: center; /* 横方向（横軸）で中央に配置 */
-    justify-content: center; /* 縦方向（縦軸）で中央に配置 */
-    text-align: center; /* テキストを中央揃えにする */
+    flex-direction: column;
+    /* 縦に並べる */
+    align-items: center;
+    /* 横方向（横軸）で中央に配置 */
+    justify-content: center;
+    /* 縦方向（縦軸）で中央に配置 */
+    text-align: center;
+    /* テキストを中央揃えにする */
     border-radius: 10px;
     margin-left: 27%;
 }
@@ -322,7 +343,7 @@ a {
 .free-text-2 {
     margin-top: 30px;
     margin-bottom: 65px;
-    color: rgb(131,145,165);
+    color: rgb(131, 145, 165);
 }
 
 .free-text-3 {
@@ -343,19 +364,24 @@ a {
 .free-text-3,
 .free-text-4 {
     display: block;
-    margin-bottom: 10px; /* テキスト同士の間隔を設定（必要に応じて調整） */
+    margin-bottom: 10px;
+    /* テキスト同士の間隔を設定（必要に応じて調整） */
 }
 
 .plus-plan {
-    background-color: rgb(247,237,173);
+    background-color: rgb(247, 237, 173);
     width: 500px;
     height: 370px;
     text-align: center;
     display: flex;
-    flex-direction: column; /* 縦に並べる */
-    align-items: center; /* 横方向（横軸）で中央に配置 */
-    justify-content: center; /* 縦方向（縦軸）で中央に配置 */
-    text-align: center; /* テキストを中央揃えにする */
+    flex-direction: column;
+    /* 縦に並べる */
+    align-items: center;
+    /* 横方向（横軸）で中央に配置 */
+    justify-content: center;
+    /* 縦方向（縦軸）で中央に配置 */
+    text-align: center;
+    /* テキストを中央揃えにする */
     border-radius: 10px;
 }
 
@@ -376,7 +402,7 @@ a {
     margin-top: 50px;
     font-weight: bold;
     color: rgb(43, 84, 106);
-    
+
 }
 
 .plus-text-4 {
@@ -395,12 +421,15 @@ a {
 .plus-text-3,
 .plus-text-4 {
     display: block;
-    margin-bottom: 10px; /* テキスト同士の間隔を設定（必要に応じて調整） */
+    margin-bottom: 10px;
+    /* テキスト同士の間隔を設定（必要に応じて調整） */
 }
 
-.free-plan, .plus-plan {
+.free-plan,
+.plus-plan {
     display: inline-block;
-    vertical-align: top; /* 一番上に揃える */
+    vertical-align: top;
+    /* 一番上に揃える */
     margin-right: 165px;
 }
 
@@ -408,12 +437,297 @@ a {
     text-align: left;
     padding: 40px 685px;
 }
+
 .lesson a {
-    color: rgb(0,112,210);
+    color: rgb(0, 112, 210);
     display: block;
     margin-bottom: 10px;
 }
 
 .open {
     color: rgb(131, 145, 165);
+}
+
+.ap-1,
+.ap-2 {
+    text-align: center;
+    display: block;
+}
+
+.ap-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(43, 84, 106);
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.ap-2 {
+    font-size: 16px;
+    color: rgb(132, 145, 165);
+    margin-bottom: 70px;
+
+}
+
+.app-all {
+    background-color: rgb(144, 195, 240);
+    width: 40%;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* 左右に配置 */
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.aptext {
+    flex: 1;
+    /* 左側に拡張 */
+    padding: 20px;
+    padding-left: 80px;
+    flex-direction: column;
+}
+
+.phone {
+    flex: 1;
+    /* 右側に拡張 */
+    text-align: center;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.ap1-main,
+.ap-1-1 {
+    color: #ffffff;
+    display: block;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.ap1-main,
+.ap2-main {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ap-2-1 {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.ios {}
+
+.ap-1-1 {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.app-all .phone .main {
+    width: 100%;
+}
+
+.app-all .phone img {
+    width: 100%;
+    /* 画像を親要素に合わせる */
+}
+
+.ul {
+    margin-top: 140px;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.li {
+    margin-right: 30px;
+}
+
+.beginner {
+    display: flex;
+    flex-direction: column; /* 縦方向に並べる */
+    justify-content: center; /* 縦方向に中央寄せ */
+    align-items: center; /* 横方向に中央寄せ */
+    margin-bottom: 80px;
+}
+
+.beginner .beginner-mainT {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(43, 84, 106);
+    margin-bottom:30px;
+}
+
+.beginner .beginner-T1 {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(132, 145, 165);
+    margin-bottom:30px;
+    line-height: 33px;
+}
+
+.beginner .beginner-T2 {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(132, 145, 165);
+    margin-bottom:30px;
+    line-height: 33px;
+}
+
+.beginner .beginner-T3 {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(132, 145, 165);
+    margin-bottom:30px;
+    line-height: 33px;
+}
+
+.letgo {
+    display: flex;
+    flex-direction: column; /* 縦方向に並べる */
+    justify-content: center; /* 縦方向に中央寄せ */
+    align-items: center; /* 横方向に中央寄せ */
+    background-color: rgb(243, 248, 255);
+    padding: 120px 0;
+}
+
+.let-mainT {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(43, 84, 106);
+    margin-bottom:35px;
+}
+
+.let-T1 {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(132, 145, 165);
+    margin-bottom:70px;
+}
+
+.let-T2 {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #FC5476;
+    border-radius: 5px;
+    padding: 15px 35px;
+    transition: all 0.5s;
+}
+
+.let-T2:hover {
+    background-color: #e93c59;
+}
+
+.sns {
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: solid #e4e4e4 1px;
+}
+
+.sns a {
+    margin: 0 15px;
+    
+}
+
+.sns a span {
+    color: rgb(103,131,160);
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    align-items: flex-start; /* 要素を上寄せに */
+    margin: 50px 650px;
+}
+
+.logos,
+.spall,
+.svall,
+.hou,
+.snsall {
+    display: flex;
+    flex-direction: column; /* 子要素を縦に並べる */
+    align-items: flex-start; /* 左寄せにする */
+    white-space: nowrap; /* テキストの折り返しを防ぐ */
+    margin-right: 100px;
+    width: 100%; /* または適切な幅に調整 */
+}
+
+.svall span,
+.spall span,
+.logos span,
+.hou span {
+    align-self: flex-start; /* <span>サービス</span>を左寄せにする */
+    /* 他のスタイルを追加する場合はここに記述 */
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: rgb(43, 84, 106);
+}
+.svall ul,
+.spall ul,
+.logos ul,
+.hou ul{
+    padding-left: 0; /* リストの余白をリセット */
+    margin-top: 0; /* リストの上の余白をリセット */
+    list-style: none; /* リストのデフォルトスタイルをリセット */
+}
+
+.svall ul li,
+.spall ul li,
+.logos ul li,
+.hou ul li{
+    font-size: 11px;
+    margin-bottom: 15px;
+    align-self: flex-start;
+    
+}
+
+.svall ul li a,
+.spall ul li a,
+.logos ul li a,
+.hou ul li a{
+    color: rgb(103,131,160);
+    
+}
+
+.logoss {
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+.hou-st {
+    display: block; /* テキストをブロック要素として扱い、折り返し可能にする */
+    font-size: 12px; /* 適切なサイズに調整 */
+    line-height: 20px;
+    background-color: rgb(238, 245, 255);
+    padding: 20px;
+    color: rgb(103,131,160);
+}
+
+.appdl {
+    color: rgb(103,131,160);
+}
+
+.apan {
+    margin-bottom: 10px;
+}
+
+.pro {
+    display: block;
+    font-size: 11px;
+    margin-top: 70px;
 }
